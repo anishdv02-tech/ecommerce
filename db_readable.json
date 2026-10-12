@@ -1,0 +1,1554 @@
+[
+{
+  "model": "store.category",
+  "pk": 1,
+  "fields": {
+    "name": "Audio & Wearables",
+    "slug": "audio-wearables",
+    "description": "High-fidelity spatial audio, active noise cancellation, and smart wearable tech.",
+    "icon": "bi-headphones",
+    "image": ""
+  }
+},
+{
+  "model": "store.category",
+  "pk": 2,
+  "fields": {
+    "name": "Workstation & Tech",
+    "slug": "workstation-tech",
+    "description": "Ergonomic furniture, high-refresh displays, and mechanical desk accessories.",
+    "icon": "bi-display",
+    "image": ""
+  }
+},
+{
+  "model": "store.category",
+  "pk": 3,
+  "fields": {
+    "name": "Smart Home & Living",
+    "slug": "smart-home-living",
+    "description": "Minimalist home decor, smart ambient lighting, and artisanal lifestyle goods.",
+    "icon": "bi-house-heart",
+    "image": ""
+  }
+},
+{
+  "model": "store.category",
+  "pk": 4,
+  "fields": {
+    "name": "Lifestyle & Gear",
+    "slug": "lifestyle-gear",
+    "description": "Premium waterproof everyday carry, Merino wool apparel, and travel gear.",
+    "icon": "bi-backpack",
+    "image": ""
+  }
+},
+{
+  "model": "store.category",
+  "pk": 5,
+  "fields": {
+    "name": "Gaming & Studio",
+    "slug": "gaming-studio",
+    "description": "Retro gaming gear, studio recording mics, and immersive spatial hardware.",
+    "icon": "bi-controller",
+    "image": ""
+  }
+},
+{
+  "model": "store.product",
+  "pk": 1,
+  "fields": {
+    "name": "AuraSound Pro Wireless Headphones",
+    "slug": "aurasound-pro-headphones",
+    "category": 1,
+    "price": "299.99",
+    "old_price": "349.99",
+    "description": "Experience uncompromised acoustics with adaptive active noise cancellation, 40-hour battery life, and spatial audio drivers calibrated by master sound engineers.",
+    "short_specs": [
+      "Active Noise Cancellation",
+      "40-Hour Battery Life",
+      "Custom 40mm Beryllium Drivers",
+      "Ultra-soft Memory Foam"
+    ],
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "rating": 4.9,
+    "review_count": 128,
+    "stock": 18,
+    "badge": "BESTSELLER",
+    "tags": "wireless,audio,anc,bestseller",
+    "is_featured": true,
+    "created_at": "2026-10-07T15:15:09.761Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 2,
+  "fields": {
+    "name": "Nova Earbuds Ultra",
+    "slug": "nova-earbuds-ultra",
+    "category": 1,
+    "price": "149.99",
+    "old_price": "179.99",
+    "description": "Compact, powerful wireless earbuds with IPX7 waterproof rating, Hi-Res LDAC audio codec, and intuitive touch gesture controls.",
+    "short_specs": [
+      "IPX7 Waterproof",
+      "Hi-Res LDAC Support",
+      "28h Total Playtime with Case",
+      "Dual Beamforming Mics"
+    ],
+    "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "rating": 4.7,
+    "review_count": 85,
+    "stock": 24,
+    "badge": "HOT",
+    "tags": "earbuds,wireless,waterproof,trending",
+    "is_featured": true,
+    "created_at": "2026-10-07T15:15:09.790Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 3,
+  "fields": {
+    "name": "Pulse V2 Smart Spatial Watch",
+    "slug": "pulse-v2-smartwatch",
+    "category": 1,
+    "price": "229.00",
+    "old_price": null,
+    "description": "Titanium alloy bezel smart watch featuring vibrant Always-On AMOLED screen, continuous ECG monitoring, blood oxygen telemetry, and 7-day battery endurance.",
+    "short_specs": [
+      "Titanium Alloy Case",
+      "1.4\" AMOLED Display",
+      "ECG + SpO2 Sensors",
+      "5ATM Water Resistance"
+    ],
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "rating": 4.8,
+    "review_count": 64,
+    "stock": 12,
+    "badge": "NEW",
+    "tags": "smartwatch,fitness,health,new",
+    "is_featured": true,
+    "created_at": "2026-10-07T15:15:09.820Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 4,
+  "fields": {
+    "name": "SonicBar Acoustic Soundbar",
+    "slug": "sonicbar-acoustic-soundbar",
+    "category": 1,
+    "price": "199.50",
+    "old_price": "249.00",
+    "description": "Sleek low-profile home theater soundbar delivering 3D Dolby Atmos sound stage with wireless subwoofer support.",
+    "short_specs": [
+      "Dolby Atmos 3D",
+      "HDMI eARC + Optical",
+      "Bluetooth 5.3",
+      "Integrated Subwoofer Pass-through"
+    ],
+    "image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "rating": 4.6,
+    "review_count": 42,
+    "stock": 8,
+    "badge": "SALE",
+    "tags": "audio,home,soundbar,speakers",
+    "is_featured": false,
+    "created_at": "2026-10-07T15:15:09.845Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 5,
+  "fields": {
+    "name": "Vibe Studio Reference Headphones",
+    "slug": "vibe-studio-headphones",
+    "category": 1,
+    "price": "189.99",
+    "old_price": null,
+    "description": "Flat-frequency studio monitor headphones engineered for sound mixing, audio editing, and pristine acoustic reproduction.",
+    "short_specs": [
+      "Neutral Sound Profile",
+      "Detachable Braided Cable",
+      "Open-back Acoustic Design",
+      "Breathable Velour Pads"
+    ],
+    "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "rating": 4.7,
+    "review_count": 91,
+    "stock": 15,
+    "badge": null,
+    "tags": "studio,monitoring,audio,pro",
+    "is_featured": false,
+    "created_at": "2026-10-07T15:15:09.874Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 6,
+  "fields": {
+    "name": "Zenith Audio Smart Frames",
+    "slug": "zenith-audio-smart-glasses",
+    "category": 1,
+    "price": "249.99",
+    "old_price": "299.99",
+    "description": "Revolutionary open-ear audio sunglasses with polarized UV400 lenses and directional speaker micro-arrays.",
+    "short_specs": [
+      "Polarized UV400 Lenses",
+      "Open-Ear Directional Audio",
+      "Hand-free Voice Assistant",
+      "Lightweight TR-90 Frame"
+    ],
+    "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "rating": 4.5,
+    "review_count": 33,
+    "stock": 5,
+    "badge": "LIMITED",
+    "tags": "smartwear,audio,eyewear,limited",
+    "is_featured": false,
+    "created_at": "2026-10-07T15:15:09.903Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 7,
+  "fields": {
+    "name": "Spectra 34\" Curved Ultrawide OLED Display",
+    "slug": "spectra-34-curved-oled",
+    "category": 2,
+    "price": "899.99",
+    "old_price": "1099.99",
+    "description": "Ultra-immersive 175Hz 0.03ms response curved OLED monitor with DCI-P3 99% color gamut and USB-C 90W power delivery.",
+    "short_specs": [
+      "34\" 3440x1440 OLED",
+      "175Hz Refresh / 0.03ms",
+      "HDR True Black 400",
+      "90W USB-C Pass-through"
+    ],
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "rating": 4.95,
+    "review_count": 210,
+    "stock": 8,
+    "badge": "BESTSELLER",
+    "tags": "monitor,oled,ultrawide,gaming,workstation",
+    "is_featured": true,
+    "created_at": "2026-10-07T15:15:09.929Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 8,
+  "fields": {
+    "name": "Apex Pro Custom Mechanical Keyboard",
+    "slug": "apex-pro-mechanical-keyboard",
+    "category": 2,
+    "price": "179.99",
+    "old_price": null,
+    "description": "Gasket-mounted custom mechanical keyboard with hot-swappable tactile switches, double-shot PBT keycaps, and customizable RGB backlight.",
+    "short_specs": [
+      "Hot-Swappable Switches",
+      "Gasket Mount Architecture",
+      "South-facing RGB Lighting",
+      "CNC Anodized Aluminum Top"
+    ],
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "rating": 4.8,
+    "review_count": 145,
+    "stock": 22,
+    "badge": "HOT",
+    "tags": "keyboard,mechanical,rgb,workstation",
+    "is_featured": true,
+    "created_at": "2026-10-07T15:15:09.958Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 9,
+  "fields": {
+    "name": "ErgoLift Electric Standing Desk Frame",
+    "slug": "ergolift-electric-standing-desk",
+    "category": 2,
+    "price": "449.00",
+    "old_price": "499.00",
+    "description": "Dual-motor motorized sit-stand desk frame with whisper-quiet operation, anti-collision sensor, and 4 memory height presets.",
+    "short_specs": [
+      "Dual Motor Lift Mechanism",
+      "350 lbs Weight Capacity",
+      "4 Preset Memory Controller",
+      "Whisper Quiet < 45dB"
+    ],
+    "image": "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "rating": 4.7,
+    "review_count": 78,
+    "stock": 10,
+    "badge": null,
+    "tags": "furniture,standing-desk,ergonomic",
+    "is_featured": false,
+    "created_at": "2026-10-07T15:15:09.993Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 10,
+  "fields": {
+    "name": "Lumino LED Task Lamp & Qi Charger",
+    "slug": "lumino-led-task-lamp",
+    "category": 2,
+    "price": "79.99",
+    "old_price": null,
+    "description": "Architectural LED desk lamp with auto-brightness sensor, 5 color temperature modes, and integrated 15W wireless smartphone charger.",
+    "short_specs": [
+      "Auto-Dimming Light Sensor",
+      "15W Qi Fast Wireless Charger",
+      "5 Color Temps (2700K - 6500K)",
+      "Touch Control Strip"
+    ],
+    "image": "https://images.unsplash.com/photo-1534073828943-f801091bb18c?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "rating": 4.6,
+    "review_count": 112,
+    "stock": 35,
+    "badge": "POPULAR",
+    "tags": "lighting,desk,charger,tech",
+    "is_featured": false,
+    "created_at": "2026-10-07T15:15:10.025Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 11,
+  "fields": {
+    "name": "Precision Wireless Ergonomic Mouse",
+    "slug": "precision-wireless-mouse",
+    "category": 2,
+    "price": "89.99",
+    "old_price": "109.99",
+    "description": "Sculpted ergonomic wireless mouse featuring ultra-fast MagSpeed electromagnetic scrolling and an 8000 DPI track-anywhere optical sensor.",
+    "short_specs": [
+      "MagSpeed Electromagnetic Wheel",
+      "8K DPI Track-Anywhere Sensor",
+      "Multi-Device Bluetooth/2.4G",
+      "70-Day USB-C Battery"
+    ],
+    "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "rating": 4.8,
+    "review_count": 178,
+    "stock": 30,
+    "badge": "BESTSELLER",
+    "tags": "mouse,ergonomic,wireless,productivity",
+    "is_featured": false,
+    "created_at": "2026-10-07T15:15:10.053Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 12,
+  "fields": {
+    "name": "FlexiArm Heavy Duty Dual Monitor Mount",
+    "slug": "flexiarm-dual-monitor-mount",
+    "category": 2,
+    "price": "119.99",
+    "old_price": null,
+    "description": "Gas spring dual monitor arm supporting monitors up to 32\" each, with full 360-degree rotation and integrated cable routing.",
+    "short_specs": [
+      "Holds up to 32\" Screens",
+      "VESA 75x75 & 100x100 Compatible",
+      "Gas Spring Height Adjustment",
+      "Concealed Cable Pass"
+    ],
+    "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "rating": 4.7,
+    "review_count": 52,
+    "stock": 14,
+    "badge": null,
+    "tags": "monitor-arm,mount,desk,workstation",
+    "is_featured": false,
+    "created_at": "2026-10-07T15:15:10.080Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 13,
+  "fields": {
+    "name": "Aura Glow Ambient Light Bar Pair",
+    "slug": "aura-glow-ambient-light-bar",
+    "category": 3,
+    "price": "129.99",
+    "old_price": "149.99",
+    "description": "Smart RGBIC light bars that dynamically sync color illumination to your music, movies, or gaming setups.",
+    "short_specs": [
+      "Screen & Audio Dynamic Sync",
+      "16 Million RGBIC Colors",
+      "Alexa & Google Assistant",
+      "Desk Stand or TV Mount"
+    ],
+    "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "rating": 4.85,
+    "review_count": 94,
+    "stock": 19,
+    "badge": "HOT",
+    "tags": "smart-home,rgb,lighting,ambience",
+    "is_featured": true,
+    "created_at": "2026-10-07T15:15:10.104Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 14,
+  "fields": {
+    "name": "Nebula Ultrasonic Aroma Diffuser",
+    "slug": "nebula-ultrasonic-diffuser",
+    "category": 3,
+    "price": "64.99",
+    "old_price": null,
+    "description": "Handcrafted ceramic ultrasonic mist diffuser with soft ambient warm glow lighting and safety auto-shutoff.",
+    "short_specs": [
+      "Handcrafted Ceramic Body",
+      "Whisper Quiet Ultrasonic Atomizer",
+      "Warm Mood Light Glow",
+      "Auto Shutoff Safety Sensor"
+    ],
+    "image": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "rating": 4.7,
+    "review_count": 88,
+    "stock": 40,
+    "badge": "ECO",
+    "tags": "home,diffuser,wellness,aromatherapy",
+    "is_featured": false,
+    "created_at": "2026-10-07T15:15:10.129Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 15,
+  "fields": {
+    "name": "Artisan Precision Coffee Dripper Set",
+    "slug": "artisan-coffee-dripper-set",
+    "category": 3,
+    "price": "84.50",
+    "old_price": null,
+    "description": "Hand-blown heat resistant borosilicate glass pour-over coffee carafe with reusable ultra-fine stainless steel mesh filter.",
+    "short_specs": [
+      "Borosilicate Heatproof Glass",
+      "Dual-Layer Reusable Mesh Filter",
+      "600ml / 20oz Capacity",
+      "Ergonomic Walnut Handle"
+    ],
+    "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "rating": 4.9,
+    "review_count": 130,
+    "stock": 25,
+    "badge": "BESTSELLER",
+    "tags": "coffee,pourover,kitchen,artisan",
+    "is_featured": true,
+    "created_at": "2026-10-07T15:15:10.156Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 16,
+  "fields": {
+    "name": "Puria HEPA Air Purifier Pro",
+    "slug": "puria-hepa-air-purifier",
+    "category": 3,
+    "price": "219.00",
+    "old_price": "269.00",
+    "description": "Medical grade True HEPA H13 filtration system removing 99.97% of airborne allergens, dust, smoke, and odors.",
+    "short_specs": [
+      "True HEPA H13 Filter",
+      "Real-time Air Quality Monitor",
+      "Covers up to 500 sq. ft.",
+      "22dB Night Sleep Mode"
+    ],
+    "image": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "rating": 4.8,
+    "review_count": 67,
+    "stock": 11,
+    "badge": "SALE",
+    "tags": "air-purifier,home,health,clean-air",
+    "is_featured": false,
+    "created_at": "2026-10-07T15:15:10.178Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 17,
+  "fields": {
+    "name": "Chronos E-Ink Minimalist Desk Clock",
+    "slug": "chronos-eink-desk-clock",
+    "category": 3,
+    "price": "49.99",
+    "old_price": null,
+    "description": "High-contrast glanceable E-Ink digital desk clock equipped with precision temperature and ambient humidity sensors.",
+    "short_specs": [
+      "High Contrast E-Ink Screen",
+      "Temperature & Humidity Sensors",
+      "Magnetic Desk Stand",
+      "1-Year Battery Life"
+    ],
+    "image": "https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "rating": 4.5,
+    "review_count": 49,
+    "stock": 50,
+    "badge": null,
+    "tags": "clock,e-ink,minimalist,decor",
+    "is_featured": false,
+    "created_at": "2026-10-07T15:15:10.202Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 18,
+  "fields": {
+    "name": "Hydra UV-C Smart Water Bottle 750ml",
+    "slug": "hydra-uvc-smart-water-bottle",
+    "category": 3,
+    "price": "59.99",
+    "old_price": null,
+    "description": "Self-cleaning insulated water bottle equipped with built-in UV-C purification cap and digital water temperature indicator.",
+    "short_specs": [
+      "Integrated UV-C Purification",
+      "24h Cold / 12h Hot Insulation",
+      "Digital Cap Touch Screen",
+      "BPA-Free Food Grade Steel"
+    ],
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "rating": 4.6,
+    "review_count": 73,
+    "stock": 28,
+    "badge": "NEW",
+    "tags": "waterbottle,hydration,smart,wellness",
+    "is_featured": false,
+    "created_at": "2026-10-07T15:15:10.225Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 19,
+  "fields": {
+    "name": "AeroTech Waterproof Commuter Backpack 24L",
+    "slug": "aerotech-waterproof-backpack",
+    "category": 4,
+    "price": "159.99",
+    "old_price": "189.99",
+    "description": "Ultra-durable Cordura ballistic nylon travel backpack featuring padded 16\" laptop chamber, hidden RFID security pocket, and weatherproof seal.",
+    "short_specs": [
+      "Cordura 1000D Waterproof Fabric",
+      "Padded 16\" Laptop Sleeve",
+      "RFID-Blocking Pocket",
+      "Luggage Strap Pass-through"
+    ],
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "rating": 4.9,
+    "review_count": 162,
+    "stock": 16,
+    "badge": "BESTSELLER",
+    "tags": "backpack,travel,waterproof,commuter",
+    "is_featured": true,
+    "created_at": "2026-10-07T15:15:10.255Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 20,
+  "fields": {
+    "name": "Titan Minimalist Aluminum Card Wallet",
+    "slug": "titan-minimalist-card-wallet",
+    "category": 4,
+    "price": "45.00",
+    "old_price": null,
+    "description": "RFID-blocking aerospace aluminum slim wallet with smooth mechanical trigger lever for instant single-handed card extraction.",
+    "short_specs": [
+      "Aerospace Grade Aluminum",
+      "Holds up to 12 Cards",
+      "Quick-Trigger Access Lever",
+      "Integrated Cash Strap"
+    ],
+    "image": "https://images.unsplash.com/photo-1627123424574-724758594e93?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "rating": 4.7,
+    "review_count": 204,
+    "stock": 60,
+    "badge": "HOT",
+    "tags": "wallet,rfid,edc,minimalist",
+    "is_featured": true,
+    "created_at": "2026-10-07T15:15:10.282Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 21,
+  "fields": {
+    "name": "CloudSoft Merino Wool Tech Hoodie",
+    "slug": "cloudsoft-merino-wool-hoodie",
+    "category": 4,
+    "price": "129.00",
+    "old_price": null,
+    "description": "Superfine 100% Australian Merino wool zip hoodie engineered for natural temperature regulation, odor resistance, and supreme softness.",
+    "short_specs": [
+      "100% Australian Merino Wool",
+      "Natural Temperature Control",
+      "Odor Resistant & Breathable",
+      "Reinforced Thumbholes"
+    ],
+    "image": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "rating": 4.8,
+    "review_count": 89,
+    "stock": 20,
+    "badge": null,
+    "tags": "apparel,hoodie,merino,wool",
+    "is_featured": false,
+    "created_at": "2026-10-07T15:15:10.304Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 22,
+  "fields": {
+    "name": "Nomad Vacuum Thermal Tumbler 500ml",
+    "slug": "nomad-thermal-travel-tumbler",
+    "category": 4,
+    "price": "39.99",
+    "old_price": null,
+    "description": "Double-wall stainless steel travel mug featuring 100% leak-proof magnetic slider lid and non-slip silicone base.",
+    "short_specs": [
+      "18/8 Stainless Steel",
+      "Double-Wall Vacuum Insulation",
+      "Magnetic Slider Lid",
+      "Fits Standard Car Cupholders"
+    ],
+    "image": "https://images.unsplash.com/photo-1577705998148-6da4f3963bc8?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "rating": 4.6,
+    "review_count": 115,
+    "stock": 45,
+    "badge": null,
+    "tags": "tumbler,drinkware,thermal,travel",
+    "is_featured": false,
+    "created_at": "2026-10-07T15:15:10.326Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 23,
+  "fields": {
+    "name": "Luxe Leather Journal & Brass Pen Set",
+    "slug": "luxe-leather-journal-pen-set",
+    "category": 4,
+    "price": "54.99",
+    "old_price": null,
+    "description": "Full-grain Italian leather refillable notebook cover paired with a solid weighted brass rollerball fountain-pen.",
+    "short_specs": [
+      "Full-Grain Italian Leather",
+      "100gsm Acid-Free Cream Paper",
+      "Solid Machined Brass Pen",
+      "Refillable 240 Page Book"
+    ],
+    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "rating": 4.8,
+    "review_count": 56,
+    "stock": 18,
+    "badge": "GIFT",
+    "tags": "journal,stationery,leather,gift",
+    "is_featured": false,
+    "created_at": "2026-10-07T15:15:10.353Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 24,
+  "fields": {
+    "name": "Urban Shield Compact Anti-Theft Sling Bag",
+    "slug": "urban-shield-anti-theft-sling",
+    "category": 4,
+    "price": "69.99",
+    "old_price": "84.99",
+    "description": "Ergonomic crossbody sling bag built with cut-proof fabric layer, lockable anti-theft zipper pullers, and external USB charging port.",
+    "short_specs": [
+      "Cut-Proof Kevlar Blend",
+      "TSA Approved Cable Lock",
+      "External USB Charging Port",
+      "Water-Repellent Coating"
+    ],
+    "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "rating": 4.7,
+    "review_count": 98,
+    "stock": 27,
+    "badge": null,
+    "tags": "slingbag,travel,security,edc",
+    "is_featured": false,
+    "created_at": "2026-10-07T15:15:10.379Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 25,
+  "fields": {
+    "name": "RetroCam X1 4K Digital Camera",
+    "slug": "retrocam-x1-digital-camera",
+    "category": 5,
+    "price": "749.99",
+    "old_price": "849.99",
+    "description": "Vintage-inspired mirrorless digital camera combining classic tactile aluminum dials with modern 24MP APS-C sensor and 4K 60fps video recording.",
+    "short_specs": [
+      "24.2MP APS-C CMOS Sensor",
+      "Classic Tactile Aluminum Dials",
+      "4K 60fps / 1080p 120fps",
+      "Built-in Wi-Fi & Bluetooth"
+    ],
+    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "rating": 4.9,
+    "review_count": 87,
+    "stock": 6,
+    "badge": "PREMIUM",
+    "tags": "camera,retro,photography,4k",
+    "is_featured": true,
+    "created_at": "2026-10-07T15:15:10.407Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 26,
+  "fields": {
+    "name": "PocketDeck OLED Handheld Gaming Console",
+    "slug": "pocketdeck-oled-handheld-console",
+    "category": 5,
+    "price": "399.00",
+    "old_price": null,
+    "description": "Portable PC gaming handheld featuring a gorgeous 7\" HDR OLED touch display, custom 8-core APU, and tactile ergonomic thumbsticks.",
+    "short_specs": [
+      "7\" 120Hz OLED Touchscreen",
+      "Custom 8-Core APU Architecture",
+      "Hall-Effect Anti-Drift Joysticks",
+      "High-Speed Wi-Fi 6E"
+    ],
+    "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "rating": 4.85,
+    "review_count": 140,
+    "stock": 8,
+    "badge": "HOT",
+    "tags": "gaming,handheld,console,oled",
+    "is_featured": true,
+    "created_at": "2026-10-07T15:15:10.437Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 27,
+  "fields": {
+    "name": "StudioCraft USB Studio Condenser Mic",
+    "slug": "studiocraft-usb-condenser-mic",
+    "category": 5,
+    "price": "139.99",
+    "old_price": "169.99",
+    "description": "Broadcast-quality USB condenser microphone featuring 24-bit 96kHz audio resolution, dual polar patterns, and zero-latency headphone monitoring.",
+    "short_specs": [
+      "24-bit / 96kHz High-Res Audio",
+      "Cardioid & Omnidirectional Switch",
+      "Zero-Latency 3.5mm Output",
+      "Heavy Duty Metal Stand"
+    ],
+    "image": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "rating": 4.7,
+    "review_count": 105,
+    "stock": 21,
+    "badge": "POPULAR",
+    "tags": "microphone,podcast,streaming,studio",
+    "is_featured": false,
+    "created_at": "2026-10-07T15:15:10.465Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 28,
+  "fields": {
+    "name": "GamerCore Wireless Mechanical Arcade Stick",
+    "slug": "gamercore-wireless-arcade-stick",
+    "category": 5,
+    "price": "169.99",
+    "old_price": null,
+    "description": "Tournament-grade fighting stick equipped with authentic Sanwa Denshi joystick & buttons, ultra-low latency 2.4G wireless, and magnetic lid access.",
+    "short_specs": [
+      "Sanwa Denshi Joystick & Buttons",
+      "Ultra-Low Latency 2.4GHz Wireless",
+      "Custom Macro Mapping",
+      "40-Hour Rechargeable Battery"
+    ],
+    "image": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "rating": 4.8,
+    "review_count": 44,
+    "stock": 13,
+    "badge": null,
+    "tags": "arcade,fightingstick,gaming,sanwa",
+    "is_featured": false,
+    "created_at": "2026-10-07T15:15:10.492Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 29,
+  "fields": {
+    "name": "ProStream Monitor RGB Lightbar Dial",
+    "slug": "prostream-monitor-rgb-lightbar",
+    "category": 5,
+    "price": "89.99",
+    "old_price": null,
+    "description": "Asymmetric optical monitor bar lighting up your desk surface without screen glare, complete with a wireless desktop control puck dial.",
+    "short_specs": [
+      "No-Screen-Glare Asymmetric Light",
+      "Wireless Desktop Control Dial",
+      "Backside Ambient RGB Glow",
+      "RA95 High Color Accuracy"
+    ],
+    "image": "https://images.unsplash.com/photo-1563089145-599997674d42?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "rating": 4.6,
+    "review_count": 68,
+    "stock": 32,
+    "badge": null,
+    "tags": "lightbar,desk,lighting,gaming",
+    "is_featured": false,
+    "created_at": "2026-10-07T15:15:10.515Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 30,
+  "fields": {
+    "name": "VR-Pulse 4K Spatial Gaming Headset",
+    "slug": "vr-pulse-4k-spatial-headset",
+    "category": 5,
+    "price": "549.99",
+    "old_price": "629.99",
+    "description": "Next-gen standalone VR headset featuring dual 4K Micro-OLED displays, pancake lenses, and optical hand-tracking camera array.",
+    "short_specs": [
+      "Dual 4K Micro-OLED Panels",
+      "Advanced Optical Hand Tracking",
+      "Compact Pancake Lens Optics",
+      "Wireless PC Streaming Support"
+    ],
+    "image": "https://images.unsplash.com/photo-1622979135225-d2ba269bc1bd?auto=format&fit=crop&w=800&q=80",
+    "gallery": [],
+    "rating": 4.7,
+    "review_count": 51,
+    "stock": 4,
+    "badge": "LIMITED",
+    "tags": "vr,gaming,headset,spatial",
+    "is_featured": false,
+    "created_at": "2026-10-07T15:15:10.536Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 1,
+  "fields": {
+    "product": 1,
+    "author": "Alex Mercer",
+    "rating": 5,
+    "comment": "Absolutely top tier build quality! The sound signature is crisp with punchy bass.",
+    "created_at": "2026-10-07T15:15:09.770Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 2,
+  "fields": {
+    "product": 1,
+    "author": "Elena Rostova",
+    "rating": 5,
+    "comment": "Fast shipping and packaging was ultra luxury. Exceeded my expectations.",
+    "created_at": "2026-10-07T15:15:09.778Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 3,
+  "fields": {
+    "product": 2,
+    "author": "Alex Mercer",
+    "rating": 5,
+    "comment": "Absolutely top tier build quality! The sound signature is crisp with punchy bass.",
+    "created_at": "2026-10-07T15:15:09.799Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 4,
+  "fields": {
+    "product": 2,
+    "author": "Elena Rostova",
+    "rating": 5,
+    "comment": "Fast shipping and packaging was ultra luxury. Exceeded my expectations.",
+    "created_at": "2026-10-07T15:15:09.808Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 5,
+  "fields": {
+    "product": 3,
+    "author": "Alex Mercer",
+    "rating": 5,
+    "comment": "Absolutely top tier build quality! The sound signature is crisp with punchy bass.",
+    "created_at": "2026-10-07T15:15:09.827Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 6,
+  "fields": {
+    "product": 3,
+    "author": "Elena Rostova",
+    "rating": 5,
+    "comment": "Fast shipping and packaging was ultra luxury. Exceeded my expectations.",
+    "created_at": "2026-10-07T15:15:09.836Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 7,
+  "fields": {
+    "product": 4,
+    "author": "Alex Mercer",
+    "rating": 5,
+    "comment": "Absolutely top tier build quality! The sound signature is crisp with punchy bass.",
+    "created_at": "2026-10-07T15:15:09.854Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 8,
+  "fields": {
+    "product": 4,
+    "author": "Elena Rostova",
+    "rating": 5,
+    "comment": "Fast shipping and packaging was ultra luxury. Exceeded my expectations.",
+    "created_at": "2026-10-07T15:15:09.865Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 9,
+  "fields": {
+    "product": 5,
+    "author": "Alex Mercer",
+    "rating": 5,
+    "comment": "Absolutely top tier build quality! The sound signature is crisp with punchy bass.",
+    "created_at": "2026-10-07T15:15:09.885Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 10,
+  "fields": {
+    "product": 5,
+    "author": "Elena Rostova",
+    "rating": 5,
+    "comment": "Fast shipping and packaging was ultra luxury. Exceeded my expectations.",
+    "created_at": "2026-10-07T15:15:09.895Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 11,
+  "fields": {
+    "product": 6,
+    "author": "Alex Mercer",
+    "rating": 5,
+    "comment": "Absolutely top tier build quality! The sound signature is crisp with punchy bass.",
+    "created_at": "2026-10-07T15:15:09.911Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 12,
+  "fields": {
+    "product": 6,
+    "author": "Elena Rostova",
+    "rating": 5,
+    "comment": "Fast shipping and packaging was ultra luxury. Exceeded my expectations.",
+    "created_at": "2026-10-07T15:15:09.920Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 13,
+  "fields": {
+    "product": 7,
+    "author": "Alex Mercer",
+    "rating": 5,
+    "comment": "Absolutely top tier build quality! The sound signature is crisp with punchy bass.",
+    "created_at": "2026-10-07T15:15:09.941Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 14,
+  "fields": {
+    "product": 7,
+    "author": "Elena Rostova",
+    "rating": 5,
+    "comment": "Fast shipping and packaging was ultra luxury. Exceeded my expectations.",
+    "created_at": "2026-10-07T15:15:09.949Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 15,
+  "fields": {
+    "product": 8,
+    "author": "Alex Mercer",
+    "rating": 5,
+    "comment": "Absolutely top tier build quality! The sound signature is crisp with punchy bass.",
+    "created_at": "2026-10-07T15:15:09.969Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 16,
+  "fields": {
+    "product": 8,
+    "author": "Elena Rostova",
+    "rating": 5,
+    "comment": "Fast shipping and packaging was ultra luxury. Exceeded my expectations.",
+    "created_at": "2026-10-07T15:15:09.981Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 17,
+  "fields": {
+    "product": 9,
+    "author": "Alex Mercer",
+    "rating": 5,
+    "comment": "Absolutely top tier build quality! The sound signature is crisp with punchy bass.",
+    "created_at": "2026-10-07T15:15:10.003Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 18,
+  "fields": {
+    "product": 9,
+    "author": "Elena Rostova",
+    "rating": 5,
+    "comment": "Fast shipping and packaging was ultra luxury. Exceeded my expectations.",
+    "created_at": "2026-10-07T15:15:10.013Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 19,
+  "fields": {
+    "product": 10,
+    "author": "Alex Mercer",
+    "rating": 5,
+    "comment": "Absolutely top tier build quality! The sound signature is crisp with punchy bass.",
+    "created_at": "2026-10-07T15:15:10.038Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 20,
+  "fields": {
+    "product": 10,
+    "author": "Elena Rostova",
+    "rating": 5,
+    "comment": "Fast shipping and packaging was ultra luxury. Exceeded my expectations.",
+    "created_at": "2026-10-07T15:15:10.045Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 21,
+  "fields": {
+    "product": 11,
+    "author": "Alex Mercer",
+    "rating": 5,
+    "comment": "Absolutely top tier build quality! The sound signature is crisp with punchy bass.",
+    "created_at": "2026-10-07T15:15:10.063Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 22,
+  "fields": {
+    "product": 11,
+    "author": "Elena Rostova",
+    "rating": 5,
+    "comment": "Fast shipping and packaging was ultra luxury. Exceeded my expectations.",
+    "created_at": "2026-10-07T15:15:10.069Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 23,
+  "fields": {
+    "product": 12,
+    "author": "Alex Mercer",
+    "rating": 5,
+    "comment": "Absolutely top tier build quality! The sound signature is crisp with punchy bass.",
+    "created_at": "2026-10-07T15:15:10.088Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 24,
+  "fields": {
+    "product": 12,
+    "author": "Elena Rostova",
+    "rating": 5,
+    "comment": "Fast shipping and packaging was ultra luxury. Exceeded my expectations.",
+    "created_at": "2026-10-07T15:15:10.097Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 25,
+  "fields": {
+    "product": 13,
+    "author": "Alex Mercer",
+    "rating": 5,
+    "comment": "Absolutely top tier build quality! The sound signature is crisp with punchy bass.",
+    "created_at": "2026-10-07T15:15:10.113Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 26,
+  "fields": {
+    "product": 13,
+    "author": "Elena Rostova",
+    "rating": 5,
+    "comment": "Fast shipping and packaging was ultra luxury. Exceeded my expectations.",
+    "created_at": "2026-10-07T15:15:10.120Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 27,
+  "fields": {
+    "product": 14,
+    "author": "Alex Mercer",
+    "rating": 5,
+    "comment": "Absolutely top tier build quality! The sound signature is crisp with punchy bass.",
+    "created_at": "2026-10-07T15:15:10.138Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 28,
+  "fields": {
+    "product": 14,
+    "author": "Elena Rostova",
+    "rating": 5,
+    "comment": "Fast shipping and packaging was ultra luxury. Exceeded my expectations.",
+    "created_at": "2026-10-07T15:15:10.147Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 29,
+  "fields": {
+    "product": 15,
+    "author": "Alex Mercer",
+    "rating": 5,
+    "comment": "Absolutely top tier build quality! The sound signature is crisp with punchy bass.",
+    "created_at": "2026-10-07T15:15:10.164Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 30,
+  "fields": {
+    "product": 15,
+    "author": "Elena Rostova",
+    "rating": 5,
+    "comment": "Fast shipping and packaging was ultra luxury. Exceeded my expectations.",
+    "created_at": "2026-10-07T15:15:10.170Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 31,
+  "fields": {
+    "product": 16,
+    "author": "Alex Mercer",
+    "rating": 5,
+    "comment": "Absolutely top tier build quality! The sound signature is crisp with punchy bass.",
+    "created_at": "2026-10-07T15:15:10.187Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 32,
+  "fields": {
+    "product": 16,
+    "author": "Elena Rostova",
+    "rating": 5,
+    "comment": "Fast shipping and packaging was ultra luxury. Exceeded my expectations.",
+    "created_at": "2026-10-07T15:15:10.195Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 33,
+  "fields": {
+    "product": 17,
+    "author": "Alex Mercer",
+    "rating": 5,
+    "comment": "Absolutely top tier build quality! The sound signature is crisp with punchy bass.",
+    "created_at": "2026-10-07T15:15:10.209Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 34,
+  "fields": {
+    "product": 17,
+    "author": "Elena Rostova",
+    "rating": 5,
+    "comment": "Fast shipping and packaging was ultra luxury. Exceeded my expectations.",
+    "created_at": "2026-10-07T15:15:10.217Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 35,
+  "fields": {
+    "product": 18,
+    "author": "Alex Mercer",
+    "rating": 5,
+    "comment": "Absolutely top tier build quality! The sound signature is crisp with punchy bass.",
+    "created_at": "2026-10-07T15:15:10.234Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 36,
+  "fields": {
+    "product": 18,
+    "author": "Elena Rostova",
+    "rating": 5,
+    "comment": "Fast shipping and packaging was ultra luxury. Exceeded my expectations.",
+    "created_at": "2026-10-07T15:15:10.243Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 37,
+  "fields": {
+    "product": 19,
+    "author": "Alex Mercer",
+    "rating": 5,
+    "comment": "Absolutely top tier build quality! The sound signature is crisp with punchy bass.",
+    "created_at": "2026-10-07T15:15:10.264Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 38,
+  "fields": {
+    "product": 19,
+    "author": "Elena Rostova",
+    "rating": 5,
+    "comment": "Fast shipping and packaging was ultra luxury. Exceeded my expectations.",
+    "created_at": "2026-10-07T15:15:10.272Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 39,
+  "fields": {
+    "product": 20,
+    "author": "Alex Mercer",
+    "rating": 5,
+    "comment": "Absolutely top tier build quality! The sound signature is crisp with punchy bass.",
+    "created_at": "2026-10-07T15:15:10.290Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 40,
+  "fields": {
+    "product": 20,
+    "author": "Elena Rostova",
+    "rating": 5,
+    "comment": "Fast shipping and packaging was ultra luxury. Exceeded my expectations.",
+    "created_at": "2026-10-07T15:15:10.296Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 41,
+  "fields": {
+    "product": 21,
+    "author": "Alex Mercer",
+    "rating": 5,
+    "comment": "Absolutely top tier build quality! The sound signature is crisp with punchy bass.",
+    "created_at": "2026-10-07T15:15:10.310Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 42,
+  "fields": {
+    "product": 21,
+    "author": "Elena Rostova",
+    "rating": 5,
+    "comment": "Fast shipping and packaging was ultra luxury. Exceeded my expectations.",
+    "created_at": "2026-10-07T15:15:10.318Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 43,
+  "fields": {
+    "product": 22,
+    "author": "Alex Mercer",
+    "rating": 5,
+    "comment": "Absolutely top tier build quality! The sound signature is crisp with punchy bass.",
+    "created_at": "2026-10-07T15:15:10.335Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 44,
+  "fields": {
+    "product": 22,
+    "author": "Elena Rostova",
+    "rating": 5,
+    "comment": "Fast shipping and packaging was ultra luxury. Exceeded my expectations.",
+    "created_at": "2026-10-07T15:15:10.344Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 45,
+  "fields": {
+    "product": 23,
+    "author": "Alex Mercer",
+    "rating": 5,
+    "comment": "Absolutely top tier build quality! The sound signature is crisp with punchy bass.",
+    "created_at": "2026-10-07T15:15:10.361Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 46,
+  "fields": {
+    "product": 23,
+    "author": "Elena Rostova",
+    "rating": 5,
+    "comment": "Fast shipping and packaging was ultra luxury. Exceeded my expectations.",
+    "created_at": "2026-10-07T15:15:10.370Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 47,
+  "fields": {
+    "product": 24,
+    "author": "Alex Mercer",
+    "rating": 5,
+    "comment": "Absolutely top tier build quality! The sound signature is crisp with punchy bass.",
+    "created_at": "2026-10-07T15:15:10.387Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 48,
+  "fields": {
+    "product": 24,
+    "author": "Elena Rostova",
+    "rating": 5,
+    "comment": "Fast shipping and packaging was ultra luxury. Exceeded my expectations.",
+    "created_at": "2026-10-07T15:15:10.396Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 49,
+  "fields": {
+    "product": 25,
+    "author": "Alex Mercer",
+    "rating": 5,
+    "comment": "Absolutely top tier build quality! The sound signature is crisp with punchy bass.",
+    "created_at": "2026-10-07T15:15:10.416Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 50,
+  "fields": {
+    "product": 25,
+    "author": "Elena Rostova",
+    "rating": 5,
+    "comment": "Fast shipping and packaging was ultra luxury. Exceeded my expectations.",
+    "created_at": "2026-10-07T15:15:10.424Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 51,
+  "fields": {
+    "product": 26,
+    "author": "Alex Mercer",
+    "rating": 5,
+    "comment": "Absolutely top tier build quality! The sound signature is crisp with punchy bass.",
+    "created_at": "2026-10-07T15:15:10.444Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 52,
+  "fields": {
+    "product": 26,
+    "author": "Elena Rostova",
+    "rating": 5,
+    "comment": "Fast shipping and packaging was ultra luxury. Exceeded my expectations.",
+    "created_at": "2026-10-07T15:15:10.454Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 53,
+  "fields": {
+    "product": 27,
+    "author": "Alex Mercer",
+    "rating": 5,
+    "comment": "Absolutely top tier build quality! The sound signature is crisp with punchy bass.",
+    "created_at": "2026-10-07T15:15:10.474Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 54,
+  "fields": {
+    "product": 27,
+    "author": "Elena Rostova",
+    "rating": 5,
+    "comment": "Fast shipping and packaging was ultra luxury. Exceeded my expectations.",
+    "created_at": "2026-10-07T15:15:10.483Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 55,
+  "fields": {
+    "product": 28,
+    "author": "Alex Mercer",
+    "rating": 5,
+    "comment": "Absolutely top tier build quality! The sound signature is crisp with punchy bass.",
+    "created_at": "2026-10-07T15:15:10.500Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 56,
+  "fields": {
+    "product": 28,
+    "author": "Elena Rostova",
+    "rating": 5,
+    "comment": "Fast shipping and packaging was ultra luxury. Exceeded my expectations.",
+    "created_at": "2026-10-07T15:15:10.507Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 57,
+  "fields": {
+    "product": 29,
+    "author": "Alex Mercer",
+    "rating": 5,
+    "comment": "Absolutely top tier build quality! The sound signature is crisp with punchy bass.",
+    "created_at": "2026-10-07T15:15:10.522Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 58,
+  "fields": {
+    "product": 29,
+    "author": "Elena Rostova",
+    "rating": 5,
+    "comment": "Fast shipping and packaging was ultra luxury. Exceeded my expectations.",
+    "created_at": "2026-10-07T15:15:10.528Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 59,
+  "fields": {
+    "product": 30,
+    "author": "Alex Mercer",
+    "rating": 5,
+    "comment": "Absolutely top tier build quality! The sound signature is crisp with punchy bass.",
+    "created_at": "2026-10-07T15:15:10.543Z"
+  }
+},
+{
+  "model": "store.review",
+  "pk": 60,
+  "fields": {
+    "product": 30,
+    "author": "Elena Rostova",
+    "rating": 5,
+    "comment": "Fast shipping and packaging was ultra luxury. Exceeded my expectations.",
+    "created_at": "2026-10-07T15:15:10.550Z"
+  }
+},
+{
+  "model": "store.order",
+  "pk": 1,
+  "fields": {
+    "order_number": "LUM-136028",
+    "customer_name": "Jane Doe",
+    "customer_email": "jane.doe@example.com",
+    "shipping_address": "123 Tech Lane, San Francisco, CA",
+    "payment_method": "Credit Card",
+    "subtotal": "899.99",
+    "discount": "180.00",
+    "tax": "57.60",
+    "total": "777.59",
+    "status": "Processing",
+    "created_at": "2026-10-07T15:47:22.075Z"
+  }
+},
+{
+  "model": "store.orderitem",
+  "pk": 1,
+  "fields": {
+    "order": 1,
+    "product": 7,
+    "quantity": 1,
+    "price": "899.99"
+  }
+}
+]
